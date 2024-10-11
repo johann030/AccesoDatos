@@ -8,7 +8,8 @@ public class Alumno {
 	private char genero;
 	private LocalDate nacimiento;
 
-	public Alumno(int nia, String nombre, String apellidos, char genero, LocalDate nacimiento, String ciclo, String curso, String grupo) {
+	public Alumno(int nia, String nombre, String apellidos, char genero, LocalDate nacimiento, String ciclo,
+			String curso, String grupo) {
 		this.nia = nia;
 		this.nombre = nombre;
 		this.apellidos = apellidos;
